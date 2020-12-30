@@ -1,0 +1,61 @@
+/*
+GLOBALS
+*/
+html{
+    text-size-adjust: $font-size-base;
+}
+
+body{
+    font-family: $font-family;
+    font-size: $font-size-1;
+    margin: auto;
+    color: $dark;
+}
+
+h2{
+    color: $blue-300;
+    opacity: 0.8;
+    font-weight: $font-weight;
+    font-size: $font-size-2;
+    letter-spacing: 0.08rem;
+    margin-bottom: 34px;
+}
+
+h3,
+h4{
+    color: $blue-100;
+    font-weight: $font-weight;
+}
+
+h3{
+    font-size: $font-size-2;
+}
+h4{
+    font-size: $font-size-1;
+}
+h5{
+    font-size: $font-size-1 * 2.5;
+}
+h6{
+    font-size: $font-size-1*1.5;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: $font-size-1;
+    line-height: 26px;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+footer{
+    color: $light-100;
+}
+i{
+    color: $blue-300;
+    font-size: $font-icon;
+}

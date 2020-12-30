@@ -1,0 +1,14 @@
+.popular{
+    margin-top: 56px;
+    //Afuera porque se repite   
+    .container-articulos{
+        display: flex;
+        justify-content: space-between;       
+    } 
+}
+
+.all-article{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+}

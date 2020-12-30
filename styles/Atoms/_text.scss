@@ -1,0 +1,71 @@
+/*Titulos*/
+h1{
+    font-size: $font-size-1 * 4;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.h3-articulo-1-popular{
+    font-size: $font-size-1 * 2.5;
+    margin-bottom: 20px;
+    line-height: 46px;
+} 
+
+.h3-articulo-2-popular{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+h5{
+    margin-bottom: 35px;
+}
+
+/*Parrafo*/
+.p-logo{
+    font-size: $font-icon;
+    font-weight: bold;
+    color:   $blue-200;
+    opacity: 1;position: absolute;
+    top: 4px;
+    left: 9px;
+}
+
+.p-banner{
+    font-size: $font-size-2;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: $light-100;
+    opacity: 0.8;
+}
+.p-article,
+.p-footer{
+    opacity: 0.6;
+}
+.p-author-footer-article{
+    color: $blue-100;
+    font-weight: $font-weight;
+    opacity: 1;
+}
+.p-date-footer-article{
+    opacity: 0.4;
+    font-size: $font-size-1*0.8;
+}
+
+.p-old-new-post {
+    font-size: $font-size-1;
+    color: $blue-300;
+    letter-spacing: 0.04em;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.p-derechos-autor{
+    opacity: 0.4;
+}
+
+.brand-info p{
+    letter-spacing: 0.05em;
+}

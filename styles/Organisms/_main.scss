@@ -1,0 +1,14 @@
+/*MAIN*/
+
+/*Container*/
+
+.container{
+    max-width: $width-container;
+    margin: auto;
+    margin-top: 56px;
+    margin-bottom: 100px;
+
+    img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+.a-header{
+    font-size: $font-size-2;
+    color: $dark;
+    font-weight: bold;
+}
+
+.a-article-footer{
+    margin-left: 25px;
+}
+
+.a-popular-section{
+    display: block;
+    color: $blue-300;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 54px;
+    margin-bottom: 26px;
+    opacity: 0.8;
+    letter-spacing: 0.04em;
+    
+}
+
+.a-footer{
+    color: $light-100;
+    letter-spacing: 0.05em;
+}

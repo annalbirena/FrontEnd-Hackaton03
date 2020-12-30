@@ -1,0 +1,37 @@
+%flex-column-articulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+}
+.articulo-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .bloque-1{
+        width: 41%;
+        @extend %flex-column-articulo;
+    }
+    .bloque-2{
+        width: 57%;
+    }
+}
+
+.articulo-2{
+    width: 32%;
+}
+
+.all-article-1{
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-between;
+
+    .image{
+        width: 41%;
+    }
+    .bloque-1{
+        width: 57%;
+        @extend %flex-column-articulo;
+    }
+}

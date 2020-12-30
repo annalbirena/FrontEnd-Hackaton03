@@ -1,0 +1,217 @@
+//Poner los archivos en orden segun dependencia
+@import 'variables';
+@import 'reset';
+@import 'globals';
+
+/*Atoms*/
+@import './Atoms/division';
+@import './Atoms/button';
+@import './Atoms/logo';
+@import './Atoms/input';
+@import './Atoms/listas';
+@import './Atoms/links';
+@import './Atoms/text';
+
+/*Molecules*/
+@import './Molecules/banner-text';
+@import './Molecules/search';
+@import './Molecules/article-footer';
+@import './Molecules/all-article-nav';
+@import './Molecules/footer-bloques';
+
+/*Organisms*/
+@import './Organisms/header';
+@import './Organisms/main';
+@import './Organisms/banner';
+@import './Organisms/cards';
+@import './Organisms/sections';
+@import './Organisms/footer';
+
+
+/*TABLET*/
+@media (max-width: 940px){
+    /*Header*/
+    header{
+        padding: 50px 60px ;
+    }
+    /*MAIN*/
+    .container{
+        margin: 30px 20px 100px 20px;  
+
+        .popular,
+        .all-article{
+            margin-top: 30px;
+        }
+
+        h2{
+            margin-bottom: 20px;
+        }
+        .h3-articulo-1-popular{
+            font-size: $font-size-1*2;
+        } 
+
+        p{
+            line-height: 18px;
+        }
+    }
+
+    /*Footer*/
+    .footer-bloque-1,
+    .footer-bloque-2{
+        padding-left: 94px;
+        padding-right: 170px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .contact,
+    .about-us{
+        width: 50%;
+    }
+    .follow-us{
+        width: 100%;
+    }
+    
+}
+
+/*CELL*/
+@media (max-width: 424px){
+    /*Header*/
+    header{
+        padding:  50px 20px 50px 30px ;
+
+        .li-header{
+            margin-left: 30px; 
+            
+            .a-header{
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    /*MAIN*/
+
+    /*Banner*/
+    h1{
+        font-size: $font-size-1 * 2;
+    }
+    .p-banner{
+        font-size: 0.8rem;
+    } 
+
+    
+    .container{
+        margin: 30px 20px 100px 20px;
+        
+        p{
+            font-size: 0.9rem;
+            line-height: 26px;
+            text-align: justify;
+        }
+
+        .articulo-1{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            .bloque-1{
+                width: 100%;
+                margin-bottom: 20px;
+
+                .h3-articulo-1-popular{
+                    font-size: $font-size-2;
+                    margin-bottom: 0px;
+                } 
+            }
+            .bloque-2{
+                width: 100%;
+            }
+
+        }
+
+        .container-articulos{
+            display: flex;
+            flex-direction: column;
+            
+            .articulo-2{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        } 
+
+        .all-article-1{
+            display: flex;
+            flex-direction: column;
+
+            .image{
+                width: 100%;
+            }
+            .bloque-1{
+                width: 100%;
+
+                h4{
+                    margin-top: 20px;
+                    font-size: $font-size-2;
+                }
+            }
+        }
+        
+        .article-footer{
+            margin-top: 20px;
+        }
+        
+        .old-post{
+            display: none;
+        }
+        .new-post{
+            i{
+                display: none;
+            }
+        }
+    }
+
+    /*Footer*/
+    .footer-bloque-1{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+
+        .footer-texto{
+            width: 100%;
+
+            h5{
+                font-size: $font-size-1*2;
+                padding-right: 80px;
+                line-height: 38px;
+            }
+        }
+        .footer-button{
+            width: 100%;
+            margin-top: 40px;
+
+            .button-footer{
+                width: 100%;
+            }
+        }
+    }
+    .footer-bloque-2{
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .info-us{
+            padding-bottom: 0px;
+
+            .contact,
+            .about-us,
+            .follow-us{
+                width: 100%;
+            }
+        }
+    } 
+}
+
+

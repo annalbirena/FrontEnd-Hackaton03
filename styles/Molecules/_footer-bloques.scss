@@ -1,0 +1,32 @@
+.footer-texto{
+    width: 50%;
+}
+.footer-button{
+    width: 50%;
+    text-align: right;
+}
+
+.contact{
+    width: 30%;
+
+    .brand{
+        display: flex;
+        align-items: center;
+        margin-bottom: 23px;
+    }
+    .brand-info{
+        margin-bottom: 24px;
+        color: $light-100;
+    }
+}
+
+.about-us ,
+.follow-us{
+    width: 30%;
+    ul{
+        margin-top: 32px;
+    }
+    li{
+        margin-bottom: 16px;
+    }
+}

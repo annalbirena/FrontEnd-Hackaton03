@@ -1,0 +1,15 @@
+.div-text-banner{
+    /*position*/
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    /*Utilizo text align para centrar el contenido horizontal*/
+    text-align: center;
+    /*Utilizo flex para centrar el contenido vertical*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*font*/
+    color: $light-100;
+}

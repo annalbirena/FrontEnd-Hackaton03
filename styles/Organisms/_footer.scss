@@ -1,0 +1,28 @@
+footer{
+    background-color: $blue-200;
+    border-radius: 0px 200px 0px 0px;  
+}
+.footer-bloque-1{
+    display: flex;
+    max-width: $width-container;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    align-items: center;
+    
+
+}
+
+.footer-bloque-2{
+    max-width: $width-container;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 90px;
+
+    .info-us{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 32px;
+        flex-wrap: wrap; 
+    }
+}

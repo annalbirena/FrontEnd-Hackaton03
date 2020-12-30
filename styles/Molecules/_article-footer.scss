@@ -1,0 +1,14 @@
+%article-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.article-footer{
+    @extend %article-footer;
+}
+
+.article-footer-2{
+    @extend %article-footer;
+    margin-top: 30px;
+}

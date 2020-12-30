@@ -1,0 +1,29 @@
+//Extends
+%div-logo{
+        height: 32px;
+        width: 32px;
+        border-radius: 100%;
+        border: 3px solid $blue-200;
+        box-sizing: border-box;
+
+}
+
+.logo-1{
+    position: relative;
+
+    div{
+        @extend %div-logo;
+        box-shadow: -18px 0px 0px 0px  $blue-200;   
+    }
+}
+
+.logo-2{
+    position: relative;
+
+    div{ 
+        @extend %div-logo;
+        box-shadow: -18px 0px 0px 0px  $blue-500;
+        background-color: $light-100;
+        margin-right: 16px;
+    } 
+}
